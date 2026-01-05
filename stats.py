@@ -51,7 +51,7 @@ def get_sorted_character_count(book):
 
 def get_report(book):
     header = "============ BOOKBOT ============"
-    title = f"Analyzing book found at {book[2:]}..."
+    title = f"Analyzing book found at {book}..."
     sub_word_count = "----------- Word Count ----------"
     word_count = f"Found {get_word_count(book)} total words"
     sub_character_count = "--------- Character Count -------"
